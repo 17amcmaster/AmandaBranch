@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34B52D19E5E14733B5596AB5 /* Pods_CastiParkingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFE9212AEDB55C81F07F460 /* Pods_CastiParkingAppUITests.framework */; };
+		6888A291E44F7B78EB3698EE /* Pods_CastiParkingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A69586897DEB95893413000 /* Pods_CastiParkingApp.framework */; };
+		8F6FC4E2A31F049068E21C84 /* Pods_CastiParkingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C695738742FBDB9FD84ACC25 /* Pods_CastiParkingAppTests.framework */; };
+		ADF3C6CF1EA2A9FC004C0C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C6CE1EA2A9FC004C0C2F /* AppDelegate.swift */; };
+		ADF3C6D11EA2A9FC004C0C2F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C6D01EA2A9FC004C0C2F /* FirstViewController.swift */; };
+		ADF3C6D31EA2A9FC004C0C2F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C6D21EA2A9FC004C0C2F /* SecondViewController.swift */; };
+		ADF3C6D61EA2A9FC004C0C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF3C6D41EA2A9FC004C0C2F /* Main.storyboard */; };
+		ADF3C6D81EA2A9FC004C0C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF3C6D71EA2A9FC004C0C2F /* Assets.xcassets */; };
+		ADF3C6DB1EA2A9FC004C0C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF3C6D91EA2A9FC004C0C2F /* LaunchScreen.storyboard */; };
+		ADF3C6E61EA2A9FD004C0C2F /* CastiParkingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C6E51EA2A9FD004C0C2F /* CastiParkingAppTests.swift */; };
+		ADF3C6F11EA2A9FD004C0C2F /* CastiParkingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C6F01EA2A9FD004C0C2F /* CastiParkingAppUITests.swift */; };
+		ADF3C6FF1EA2AB23004C0C2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADF3C6FE1EA2AB23004C0C2F /* GoogleService-Info.plist */; };
+		ADF3C7011EA2AC11004C0C2F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C7001EA2AC11004C0C2F /* NotificationCell.swift */; };
+		ADF3C7031EA2AC32004C0C2F /* NotificationCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C7021EA2AC32004C0C2F /* NotificationCellData.swift */; };
+		ADF3C7051EA2AC4A004C0C2F /* NotificationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C7041EA2AC4A004C0C2F /* NotificationCellModel.swift */; };
+		ADF3C7071EA2AC60004C0C2F /* NotifcationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C7061EA2AC60004C0C2F /* NotifcationStorage.swift */; };
+		ADF3C7091EA2AC82004C0C2F /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C7081EA2AC82004C0C2F /* StateController.swift */; };
+		ADF3C70B1EA2ACAB004C0C2F /* TrafficInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C70A1EA2ACAB004C0C2F /* TrafficInformation.swift */; };
+		ADF3C70D1EA2ACC2004C0C2F /* TrafficInformationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C70C1EA2ACC2004C0C2F /* TrafficInformationDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF3C6E21EA2A9FD004C0C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF3C6C31EA2A9FC004C0C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF3C6CA1EA2A9FC004C0C2F;
+			remoteInfo = CastiParkingApp;
+		};
+		ADF3C6ED1EA2A9FD004C0C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF3C6C31EA2A9FC004C0C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF3C6CA1EA2A9FC004C0C2F;
+			remoteInfo = CastiParkingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016C7A64F487B6AC1D919A95 /* Pods-CastiParkingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastiParkingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastiParkingAppTests/Pods-CastiParkingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D3846348531A6E7128BA586 /* Pods-CastiParkingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastiParkingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastiParkingAppUITests/Pods-CastiParkingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		106795FB3FFBC83249CAF308 /* Pods-CastiParkingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastiParkingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastiParkingApp/Pods-CastiParkingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8A69586897DEB95893413000 /* Pods_CastiParkingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastiParkingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFE9212AEDB55C81F07F460 /* Pods_CastiParkingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastiParkingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3C6CB1EA2A9FC004C0C2F /* CastiParkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastiParkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3C6CE1EA2A9FC004C0C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF3C6D01EA2A9FC004C0C2F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ADF3C6D21EA2A9FC004C0C2F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ADF3C6D51EA2A9FC004C0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF3C6D71EA2A9FC004C0C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF3C6DA1EA2A9FC004C0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF3C6DC1EA2A9FC004C0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF3C6E11EA2A9FD004C0C2F /* CastiParkingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastiParkingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3C6E51EA2A9FD004C0C2F /* CastiParkingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastiParkingAppTests.swift; sourceTree = "<group>"; };
+		ADF3C6E71EA2A9FD004C0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF3C6EC1EA2A9FD004C0C2F /* CastiParkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastiParkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3C6F01EA2A9FD004C0C2F /* CastiParkingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastiParkingAppUITests.swift; sourceTree = "<group>"; };
+		ADF3C6F21EA2A9FD004C0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF3C6FE1EA2AB23004C0C2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADF3C7001EA2AC11004C0C2F /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		ADF3C7021EA2AC32004C0C2F /* NotificationCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCellData.swift; sourceTree = "<group>"; };
+		ADF3C7041EA2AC4A004C0C2F /* NotificationCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCellModel.swift; sourceTree = "<group>"; };
+		ADF3C7061EA2AC60004C0C2F /* NotifcationStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifcationStorage.swift; sourceTree = "<group>"; };
+		ADF3C7081EA2AC82004C0C2F /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		ADF3C70A1EA2ACAB004C0C2F /* TrafficInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficInformation.swift; sourceTree = "<group>"; };
+		ADF3C70C1EA2ACC2004C0C2F /* TrafficInformationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficInformationDataSource.swift; sourceTree = "<group>"; };
+		C48A9E5CC19C1CCFBDD94BCC /* Pods-CastiParkingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastiParkingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastiParkingApp/Pods-CastiParkingApp.release.xcconfig"; sourceTree = "<group>"; };
+		C695738742FBDB9FD84ACC25 /* Pods_CastiParkingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastiParkingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3FA63D3AD24C34141351FE /* Pods-CastiParkingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastiParkingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CastiParkingAppTests/Pods-CastiParkingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDBF7E79243C9246861CDF6F /* Pods-CastiParkingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastiParkingAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CastiParkingAppUITests/Pods-CastiParkingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF3C6C81EA2A9FC004C0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6888A291E44F7B78EB3698EE /* Pods_CastiParkingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF3C6DE1EA2A9FD004C0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6FC4E2A31F049068E21C84 /* Pods_CastiParkingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF3C6E91EA2A9FD004C0C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B52D19E5E14733B5596AB5 /* Pods_CastiParkingAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390D3AB2F9401F57CBA08402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A69586897DEB95893413000 /* Pods_CastiParkingApp.framework */,
+				C695738742FBDB9FD84ACC25 /* Pods_CastiParkingAppTests.framework */,
+				AAFE9212AEDB55C81F07F460 /* Pods_CastiParkingAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADF3C6C21EA2A9FC004C0C2F = {
+			isa = PBXGroup;
+			children = (
+				ADF3C6CD1EA2A9FC004C0C2F /* CastiParkingApp */,
+				ADF3C6E41EA2A9FD004C0C2F /* CastiParkingAppTests */,
+				ADF3C6EF1EA2A9FD004C0C2F /* CastiParkingAppUITests */,
+				ADF3C6CC1EA2A9FC004C0C2F /* Products */,
+				E6D129FCFB7C9B70E85A65FD /* Pods */,
+				390D3AB2F9401F57CBA08402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF3C6CC1EA2A9FC004C0C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3C6CB1EA2A9FC004C0C2F /* CastiParkingApp.app */,
+				ADF3C6E11EA2A9FD004C0C2F /* CastiParkingAppTests.xctest */,
+				ADF3C6EC1EA2A9FD004C0C2F /* CastiParkingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF3C6CD1EA2A9FC004C0C2F /* CastiParkingApp */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3C6CE1EA2A9FC004C0C2F /* AppDelegate.swift */,
+				ADF3C7001EA2AC11004C0C2F /* NotificationCell.swift */,
+				ADF3C7021EA2AC32004C0C2F /* NotificationCellData.swift */,
+				ADF3C7041EA2AC4A004C0C2F /* NotificationCellModel.swift */,
+				ADF3C7061EA2AC60004C0C2F /* NotifcationStorage.swift */,
+				ADF3C7081EA2AC82004C0C2F /* StateController.swift */,
+				ADF3C70A1EA2ACAB004C0C2F /* TrafficInformation.swift */,
+				ADF3C70C1EA2ACC2004C0C2F /* TrafficInformationDataSource.swift */,
+				ADF3C6D01EA2A9FC004C0C2F /* FirstViewController.swift */,
+				ADF3C6D21EA2A9FC004C0C2F /* SecondViewController.swift */,
+				ADF3C6D41EA2A9FC004C0C2F /* Main.storyboard */,
+				ADF3C6D71EA2A9FC004C0C2F /* Assets.xcassets */,
+				ADF3C6D91EA2A9FC004C0C2F /* LaunchScreen.storyboard */,
+				ADF3C6DC1EA2A9FC004C0C2F /* Info.plist */,
+				ADF3C6FE1EA2AB23004C0C2F /* GoogleService-Info.plist */,
+			);
+			path = CastiParkingApp;
+			sourceTree = "<group>";
+		};
+		ADF3C6E41EA2A9FD004C0C2F /* CastiParkingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3C6E51EA2A9FD004C0C2F /* CastiParkingAppTests.swift */,
+				ADF3C6E71EA2A9FD004C0C2F /* Info.plist */,
+			);
+			path = CastiParkingAppTests;
+			sourceTree = "<group>";
+		};
+		ADF3C6EF1EA2A9FD004C0C2F /* CastiParkingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3C6F01EA2A9FD004C0C2F /* CastiParkingAppUITests.swift */,
+				ADF3C6F21EA2A9FD004C0C2F /* Info.plist */,
+			);
+			path = CastiParkingAppUITests;
+			sourceTree = "<group>";
+		};
+		E6D129FCFB7C9B70E85A65FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				106795FB3FFBC83249CAF308 /* Pods-CastiParkingApp.debug.xcconfig */,
+				C48A9E5CC19C1CCFBDD94BCC /* Pods-CastiParkingApp.release.xcconfig */,
+				016C7A64F487B6AC1D919A95 /* Pods-CastiParkingAppTests.debug.xcconfig */,
+				CD3FA63D3AD24C34141351FE /* Pods-CastiParkingAppTests.release.xcconfig */,
+				FDBF7E79243C9246861CDF6F /* Pods-CastiParkingAppUITests.debug.xcconfig */,
+				0D3846348531A6E7128BA586 /* Pods-CastiParkingAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF3C6CA1EA2A9FC004C0C2F /* CastiParkingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF3C6F51EA2A9FD004C0C2F /* Build configuration list for PBXNativeTarget "CastiParkingApp" */;
+			buildPhases = (
+				D76EA4CF1BE64BBCB85A1920 /* [CP] Check Pods Manifest.lock */,
+				ADF3C6C71EA2A9FC004C0C2F /* Sources */,
+				ADF3C6C81EA2A9FC004C0C2F /* Frameworks */,
+				ADF3C6C91EA2A9FC004C0C2F /* Resources */,
+				2BBBEE66B7CE88F3708C9837 /* [CP] Embed Pods Frameworks */,
+				9F0D74A1456F4D6F97F6A3A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastiParkingApp;
+			productName = CastiParkingApp;
+			productReference = ADF3C6CB1EA2A9FC004C0C2F /* CastiParkingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF3C6E01EA2A9FD004C0C2F /* CastiParkingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF3C6F81EA2A9FD004C0C2F /* Build configuration list for PBXNativeTarget "CastiParkingAppTests" */;
+			buildPhases = (
+				124B242AE2B072D470D4BDA2 /* [CP] Check Pods Manifest.lock */,
+				ADF3C6DD1EA2A9FD004C0C2F /* Sources */,
+				ADF3C6DE1EA2A9FD004C0C2F /* Frameworks */,
+				ADF3C6DF1EA2A9FD004C0C2F /* Resources */,
+				E932963969EE544BDFAF51F8 /* [CP] Embed Pods Frameworks */,
+				B2AA34B129E3E8FC4849F0AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF3C6E31EA2A9FD004C0C2F /* PBXTargetDependency */,
+			);
+			name = CastiParkingAppTests;
+			productName = CastiParkingAppTests;
+			productReference = ADF3C6E11EA2A9FD004C0C2F /* CastiParkingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADF3C6EB1EA2A9FD004C0C2F /* CastiParkingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF3C6FB1EA2A9FD004C0C2F /* Build configuration list for PBXNativeTarget "CastiParkingAppUITests" */;
+			buildPhases = (
+				F4B22E7B4A212318F901BD8D /* [CP] Check Pods Manifest.lock */,
+				ADF3C6E81EA2A9FD004C0C2F /* Sources */,
+				ADF3C6E91EA2A9FD004C0C2F /* Frameworks */,
+				ADF3C6EA1EA2A9FD004C0C2F /* Resources */,
+				B2E885811607668F458188B8 /* [CP] Embed Pods Frameworks */,
+				8F397D8514B449970DFEB0E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF3C6EE1EA2A9FD004C0C2F /* PBXTargetDependency */,
+			);
+			name = CastiParkingAppUITests;
+			productName = CastiParkingAppUITests;
+			productReference = ADF3C6EC1EA2A9FD004C0C2F /* CastiParkingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF3C6C31EA2A9FC004C0C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CS3;
+				TargetAttributes = {
+					ADF3C6CA1EA2A9FC004C0C2F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = V523P5WTF8;
+						ProvisioningStyle = Automatic;
+					};
+					ADF3C6E01EA2A9FD004C0C2F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 589PN7D9LU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADF3C6CA1EA2A9FC004C0C2F;
+					};
+					ADF3C6EB1EA2A9FD004C0C2F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 589PN7D9LU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADF3C6CA1EA2A9FC004C0C2F;
+					};
+				};
+			};
+			buildConfigurationList = ADF3C6C61EA2A9FC004C0C2F /* Build configuration list for PBXProject "CastiParkingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF3C6C21EA2A9FC004C0C2F;
+			productRefGroup = ADF3C6CC1EA2A9FC004C0C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF3C6CA1EA2A9FC004C0C2F /* CastiParkingApp */,
+				ADF3C6E01EA2A9FD004C0C2F /* CastiParkingAppTests */,
+				ADF3C6EB1EA2A9FD004C0C2F /* CastiParkingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF3C6C91EA2A9FC004C0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF3C6DB1EA2A9FC004C0C2F /* LaunchScreen.storyboard in Resources */,
+				ADF3C6FF1EA2AB23004C0C2F /* GoogleService-Info.plist in Resources */,
+				ADF3C6D81EA2A9FC004C0C2F /* Assets.xcassets in Resources */,
+				ADF3C6D61EA2A9FC004C0C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF3C6DF1EA2A9FD004C0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF3C6EA1EA2A9FD004C0C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124B242AE2B072D470D4BDA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBBEE66B7CE88F3708C9837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastiParkingApp/Pods-CastiParkingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F397D8514B449970DFEB0E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastiParkingAppUITests/Pods-CastiParkingAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0D74A1456F4D6F97F6A3A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastiParkingApp/Pods-CastiParkingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AA34B129E3E8FC4849F0AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastiParkingAppTests/Pods-CastiParkingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E885811607668F458188B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastiParkingAppUITests/Pods-CastiParkingAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76EA4CF1BE64BBCB85A1920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E932963969EE544BDFAF51F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CastiParkingAppTests/Pods-CastiParkingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B22E7B4A212318F901BD8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF3C6C71EA2A9FC004C0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF3C7011EA2AC11004C0C2F /* NotificationCell.swift in Sources */,
+				ADF3C6D31EA2A9FC004C0C2F /* SecondViewController.swift in Sources */,
+				ADF3C7071EA2AC60004C0C2F /* NotifcationStorage.swift in Sources */,
+				ADF3C7051EA2AC4A004C0C2F /* NotificationCellModel.swift in Sources */,
+				ADF3C70B1EA2ACAB004C0C2F /* TrafficInformation.swift in Sources */,
+				ADF3C6CF1EA2A9FC004C0C2F /* AppDelegate.swift in Sources */,
+				ADF3C7091EA2AC82004C0C2F /* StateController.swift in Sources */,
+				ADF3C7031EA2AC32004C0C2F /* NotificationCellData.swift in Sources */,
+				ADF3C6D11EA2A9FC004C0C2F /* FirstViewController.swift in Sources */,
+				ADF3C70D1EA2ACC2004C0C2F /* TrafficInformationDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF3C6DD1EA2A9FD004C0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF3C6E61EA2A9FD004C0C2F /* CastiParkingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF3C6E81EA2A9FD004C0C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF3C6F11EA2A9FD004C0C2F /* CastiParkingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF3C6E31EA2A9FD004C0C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF3C6CA1EA2A9FC004C0C2F /* CastiParkingApp */;
+			targetProxy = ADF3C6E21EA2A9FD004C0C2F /* PBXContainerItemProxy */;
+		};
+		ADF3C6EE1EA2A9FD004C0C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF3C6CA1EA2A9FC004C0C2F /* CastiParkingApp */;
+			targetProxy = ADF3C6ED1EA2A9FD004C0C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF3C6D41EA2A9FC004C0C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF3C6D51EA2A9FC004C0C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF3C6D91EA2A9FC004C0C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF3C6DA1EA2A9FC004C0C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF3C6F31EA2A9FD004C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADF3C6F41EA2A9FD004C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF3C6F61EA2A9FD004C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106795FB3FFBC83249CAF308 /* Pods-CastiParkingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V523P5WTF8;
+				INFOPLIST_FILE = CastiParkingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Castilleja.CastiParkingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ADF3C6F71EA2A9FD004C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48A9E5CC19C1CCFBDD94BCC /* Pods-CastiParkingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V523P5WTF8;
+				INFOPLIST_FILE = CastiParkingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Castilleja.CastiParkingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ADF3C6F91EA2A9FD004C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016C7A64F487B6AC1D919A95 /* Pods-CastiParkingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiParkingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Castilleja.CastiParkingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastiParkingApp.app/CastiParkingApp";
+			};
+			name = Debug;
+		};
+		ADF3C6FA1EA2A9FD004C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3FA63D3AD24C34141351FE /* Pods-CastiParkingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiParkingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Castilleja.CastiParkingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastiParkingApp.app/CastiParkingApp";
+			};
+			name = Release;
+		};
+		ADF3C6FC1EA2A9FD004C0C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBF7E79243C9246861CDF6F /* Pods-CastiParkingAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiParkingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Castilleja.CastiParkingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CastiParkingApp;
+			};
+			name = Debug;
+		};
+		ADF3C6FD1EA2A9FD004C0C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3846348531A6E7128BA586 /* Pods-CastiParkingAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiParkingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Castilleja.CastiParkingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CastiParkingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF3C6C61EA2A9FC004C0C2F /* Build configuration list for PBXProject "CastiParkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF3C6F31EA2A9FD004C0C2F /* Debug */,
+				ADF3C6F41EA2A9FD004C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF3C6F51EA2A9FD004C0C2F /* Build configuration list for PBXNativeTarget "CastiParkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF3C6F61EA2A9FD004C0C2F /* Debug */,
+				ADF3C6F71EA2A9FD004C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF3C6F81EA2A9FD004C0C2F /* Build configuration list for PBXNativeTarget "CastiParkingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF3C6F91EA2A9FD004C0C2F /* Debug */,
+				ADF3C6FA1EA2A9FD004C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF3C6FB1EA2A9FD004C0C2F /* Build configuration list for PBXNativeTarget "CastiParkingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF3C6FC1EA2A9FD004C0C2F /* Debug */,
+				ADF3C6FD1EA2A9FD004C0C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF3C6C31EA2A9FC004C0C2F /* Project object */;
+}
